@@ -90,6 +90,11 @@ header div {
 
 
 
+body section {
+    border-bottom: 1px solid var(--white);
+}
+
+
 /* Pantalla home */
 .home {
     width: 100%;
@@ -165,7 +170,7 @@ header div {
     position: relative;
     background-color: var(--background);
 }
-.about_title {
+.subtitle {
     margin-bottom: 50px;
     text-align: center;
     font-family: var(--text-two);
@@ -179,8 +184,8 @@ header div {
     max-width: 800px;
     padding: 0 20px;
 }
-.about_info p:first-child {
-    margin-bottom: 30px;
+.subtitle_text {
+    margin: 0 0 30px 20px;
     font-size: 1.6rem;
     font-weight: 300;
     color: var(--white);
@@ -222,4 +227,34 @@ header div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+/* Screen skills / tools */
+.skills {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    position: relative;
+    background-color: var(--background);
+}
+.tools_container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.tool {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(128, 128, 128, 0.5);
 }

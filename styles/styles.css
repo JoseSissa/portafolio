@@ -255,6 +255,24 @@ body section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.tool_img {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tool_img svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--awesome);
+}
+.tool_text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--white);
 }

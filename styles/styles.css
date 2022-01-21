@@ -19,6 +19,22 @@ html {
 
 
 
+/* Estilos que se repiten */
+.box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 70px 20px;
+    background-color: var(--background);
+}
+.box > *{
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------ */
+
+
+
 /* Estilos del header */
 header {
     position: sticky;
@@ -95,6 +111,7 @@ body section {
 }
 
 
+
 /* Pantalla home */
 .home {
     width: 100%;
@@ -163,16 +180,7 @@ body section {
 
 /* Screen about me */
 
-.about {
-    width: 100%;
-    height: auto;
-    padding: 75px 0;
-    margin: var(--background);
-    position: relative;
-    background-color: var(--background);
-}
 .subtitle {
-    margin-bottom: 50px;
     text-align: center;
     font-family: var(--text-two);
     font-size: 2.4rem;
@@ -181,16 +189,13 @@ body section {
 }
 .about_info {
     width: 100%;
-    min-width: 320px;
-    max-width: 800px;
-    margin-bottom: 60px;
-    padding: 0 20px;
 }
 .subtitle_text {
-    margin: 0 0 50px 20px;
     font-size: 1.6rem;
     font-weight: 300;
     color: var(--white);
+    overflow: hidden;
+    white-space: initial;
 }
 .about_info p:nth-child(2) {
     font-size: 2.4rem;
@@ -199,7 +204,6 @@ body section {
     color: var(--awesome);
 }
 .about_info p:last-child {
-    margin-bottom: 30px;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 3.5rem;
@@ -209,7 +213,6 @@ body section {
     width: 140px;
     height: 45px;
     padding: 0 12px;
-    margin: 0 0 40px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -233,20 +236,11 @@ body section {
 
 
 /* Screen skills / tools */
-.skills {
-    width: 100%;
-    height: auto;
-    padding: 60px 0;
-    position: relative;
-    background-color: var(--background);
-}
+
 .tools_container {
     width: 100%;
-    width: 100%;
-    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;

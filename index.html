@@ -24,18 +24,18 @@
         </header>
 
         <nav class="menu" id="menu">
-            <ul>
-                <li class="menu_item"><a href="#">Home</a></li>
-                <li class="menu_item"><a href="#">About me</a></li>
-                <li class="menu_item"><a href="#">My skills</a></li>
-                <li class="menu_item"><a href="#">My projects</a></li>
-                <li class="menu_item"><a href="#">Contact me</a></li>
+            <ul id="menu-list">
+                <li class="menu_item"><a href="#home">Home</a></li>
+                <li class="menu_item"><a href="#about">About me</a></li>
+                <li class="menu_item"><a href="#skills">My skills</a></li>
+                <li class="menu_item"><a href="#projects">My projects</a></li>
+                <li class="menu_item"><a href="#contact">Contact me</a></li>
             </ul>
         </nav>
 
         <body>
             
-            <section class="home">
+            <section class="home" id="home">
                 <div class="home_container">
                     <div class="home_container--photo"></div>
                     <div class="home_container--name">
@@ -43,11 +43,11 @@
                         <p class="name">I'm Jose Rafael Sissa Mendoza</p>
                         <p class="profession">System engineering</p>
                     </div>
-                    <button>Abajo |</button>
+                    <button class="button_home">See More</button>
                 </div>
             </section>
 
-            <section class="box about">
+            <section class="box about" id="about">
                 <h2 class="subtitle">About me</h2>
                 <p class="subtitle_text">Who am I?</p>
                 <article class="about_info">
@@ -57,7 +57,7 @@
                 <button class="button" type="button"><span></span> Download CV</button>
             </section>
 
-            <section class="box skills">
+            <section class="box skills" id="skills">
                 <h2 class="subtitle">Skills</h2>
                 <p class="subtitle_text">Technologies I learned to use:</p>
                 <article class="tools_container">
@@ -131,7 +131,7 @@
                 </article>
             </section>
 
-            <section class="box projects">
+            <section class="box projects" id="projects">
                 <h2 class="subtitle">Portfolio</h2>
                 <p class="subtitle_text">Some example of my projects</p>
                 <div class="project">
@@ -154,7 +154,7 @@
                 </div>
             </section>
 
-            <section class="box contact">
+            <section class="box contact" id="contact">
                 <h2 class="subtitle">Contact</h2>
                 <p class="subtitle_text">Feel free to see my networks and contact me at any time: </p>
                 <div class="contact_options">

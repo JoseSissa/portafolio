@@ -2,7 +2,8 @@
     --text-one: 'Inconsolata', monospace;
     --text-two: 'Ubuntu', sans-serif;
 
-    --awesome: #FFD43B;
+    /* --awesome: #FFD43B; */
+    --awesome: #FBCA1F;
     --background: #000000;
     --mid: rgb(86, 138, 250);
     --white: #f7fff7;
@@ -181,6 +182,9 @@ body section {
     margin-left: auto;
 }
 
+.button_home {
+    
+}
 
 
 /* Screen about me */

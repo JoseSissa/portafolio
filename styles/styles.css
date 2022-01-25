@@ -219,24 +219,25 @@ body section {
     color: var(--white);
 }
 .button {
-    width: auto;
+    position: relative;
+    display: inline-block;
+    width: 150px;
     height: 40px;
-    padding: 0 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: none;
+    padding: 11px 15px;
+    text-align: end;
+    text-decoration: none;
     border-radius: 5px;
     font-family: var(--text-two);
     font-size: 1.6rem;
     font-weight: 300;
     background-color: var(--awesome);
+    color: var(--background);
 }
 .button span {
-    display: inline-block;
+    position: absolute;
     width: 13px;
     height: 18px;
-    margin-right: 6px;
+    left: 15px;
     background-image: url('../assets/icons/download.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -337,4 +338,8 @@ svg {
     font-size: 1.2rem;
     font-weight: 300;
     color: var(--white);
+}
+
+.pdf {
+    color: white;
 }

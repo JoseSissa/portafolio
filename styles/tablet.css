@@ -1,0 +1,37 @@
+.menu  {
+    transform: translateX(calc(-100% + 60px));
+}
+.show {
+    transform: translateX(0px);
+}
+/* .menu_item--icon {
+    position: relative;
+    bottom: -3px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.menu_item--icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -8px;
+}
+.home-icon {
+    background-image: url('../assets/icons/home-icon.svg');
+}
+.about-icon {
+    background-image: url('../assets/icons/about-me-icon.svg');
+}
+.skills-icon {
+    background-image: url('../assets/icons/skills-icon.svg');
+}
+.project-icon {
+    background-image: url('../assets/icons/projects-icon.svg');
+}
+.contact-icon {
+    background-image: url('../assets/icons/contact-icon.svg');
+}

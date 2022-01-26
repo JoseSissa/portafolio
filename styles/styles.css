@@ -102,6 +102,7 @@ header div {
     font-size: 2.4rem;
 }
 .menu_item a{
+    position: relative;
     display: inline-block;
     width: 100%;
     padding: 10px 0;
@@ -121,7 +122,8 @@ body section {
 /* Pantalla home */
 .home {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding: 30px 0px 70px 0px;
     position: relative;
     display: flex;
     align-items:flex-start;
@@ -248,6 +250,10 @@ body section {
 
 /* Screen skills / tools */
 
+.skills {
+    text-align: center;
+}
+
 .tools_container {
     width: 100%;
     margin-left: auto;
@@ -288,6 +294,9 @@ body section {
 
 
 /* Styles of section projects */
+.projects, .contact {
+    text-align: center;
+}
 .contact_options {
     width: 100%;
     margin-left: auto;
